@@ -1,4 +1,4 @@
-baseURL: https://pkg.hugomods.com
+baseURL: https://pkg.razonyang.com
 
 disableKinds:
   - sitemap
@@ -10,9 +10,9 @@ outputs:
 
 module:
   imports:
-    - path: pkg.hugomods.com/go-vanity-urls
+    - path: github.com/hugomods/go-vanity-urls
 
 params:
   go_vanity_urls:
-    # host: pkg.hugomods.com # optonal, default is baseURL.
+    # host: pkg.razonyang.com # optonal, default is baseURL.
     vcs: git
