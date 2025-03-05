@@ -1,0 +1,18 @@
+baseURL: https://pkg.hugomods.com
+
+disableKinds:
+  - sitemap
+  - taxonomy
+  - term
+
+outputs:
+  home: ["HTML"]
+
+module:
+  imports:
+    - path: pkg.hugomods.com/go-vanity-urls
+
+params:
+  go_vanity_urls:
+    # host: pkg.hugomods.com # optonal, default is baseURL.
+    vcs: git
